@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ImagenPrueba from './ImagenPrueba';
 
-function HelloWorld() {
-    return (
-        <h3>Hola Mundo</h3>
-    )
-}
+const HelloWorld = () => {
+  return (
+    <div>
+      <h3>Hello World</h3>
+      <ImagenPrueba />
+    </div>
+  );
+};
 
 export default HelloWorld;
